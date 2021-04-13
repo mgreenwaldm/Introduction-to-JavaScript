@@ -54,7 +54,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-var stringConvert = ('1999')
+var stringConvert = '1999'
+var convertedString = Number(stringConvert);
+console.log(convertedString)
 
 
 
@@ -68,9 +70,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply( /*add your code here*/ ) {
-  /*add your code here*/
+function multiply(num1, num2) {
+  let sum = num1 * num2;
+  return sum;
 }
+console.log(multiply(10, 5));
 
 
 
@@ -84,7 +88,8 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears( /*add your code here*/ ) {
+function dogYears(num1, num2) {
+  let newAge = num
   /*add your code here*/
 }
 
